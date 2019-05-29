@@ -66,7 +66,7 @@ plt.imshow(result,cmap='gray')
 
 eyes=eye_cascade.detectMultiScale(denis)
 
-#White arounf pupils not distict in denis image... or maybe this classifier is way too racist
+#White arounf pupils not distict in denis image..
 
 result=detect_eyes(denis)
 plt.imshow(result,cmap='gray')
